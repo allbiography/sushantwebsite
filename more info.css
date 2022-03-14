@@ -1,0 +1,23 @@
+.heading {
+    font-size: 40px;
+    text-align: center;
+    color: rebeccapurple;
+    font-family: Algerian;
+}
+
+.para {
+    margin-left: 200px;
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-family:  Lucida Calligraphy;
+    color: rgb(179, 40, 86);
+}
+
+.list {
+    margin-left: 290px;
+    margin-top: 12px;
+    font-size: 25px;
+    font-family: Comic Sans MS;
+    line-height: 59px;
+    color: tomato;
+}

@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 100%;
+  background: linear-gradient(to top);
+  background-position: center;
+  background-size: cover;
+  height: 109vh;
+}
+
+.navbar {
+  height: 75px;
+  margin: auto;
+  background: purple;
+}
+
+.logo {
+  font-family: Harrington;
+  float: left;
+  color: orange;
+  font-size: 60px;
+  padding-top: 37px;
+  font-size: 110px;
+}
+
+.search {
+  width: 330px;
+  float: left;
+  margin-left: 200px;
+  margin-top: 19px;
+  border-radius: 10px;
+}
+
+.srch {
+  font-family: "Times New Roman";
+  width: 200px;
+  height: 40px;
+  font-size: 23px;
+  border: 1px solid orange;
+  padding-left: 30px;
+  border-radius: 10px;
+}
+
+.menu {
+  width: 350;
+  float: left;
+  height: 70;
+}
+
+ul {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  margin-left: 50px;
+  margin-top: 27px;
+  font-size: 17px;
+}
+
+ul li a {
+  color: mintcream;
+  font-family: Algerian;
+  transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+  color: orange;
+}
+
+.btn {
+  width: 100px;
+  height: 30px;
+  background: orange;
+  border-radius: 10px;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.srch:focus {
+  outline: none;
+}
+
+.content {
+  width: 1200px;
+  height: 8cm;
+  margin: auto;
+  position: relative;
+}
+
+.content .par {
+  margin-left: -47px;
+  padding-left: 14px;
+  font-family: Segoe Print;
+  line-height: 3opx;
+  letter-spacing: 1.2px;
+  font-size: 25px;
+  color: white;
+}
+
+.content h1 {
+  font-family: Felix Titling;
+  font-size: 60px;
+  padding-left: 14px;
+  margin-top: 9%;
+  letter-spacing: 2px;
+}
+
+.content .cn {
+  margin-left: -40px;
+  width: 180px;
+  height: 40px;
+  background: orange;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.content spann {
+  color: cyan;
+  margin-left: 3cm;
+  font-family: Felix Titling;
+  font-size: 95px;
+}
+
+.content rental {
+  color: red;
+  font-size: 95px;
+}
+
+.content span {
+  color: green;
+  margin-left: 5cm;
+  font-family: Felix Titling;
+  font-size: 73px;
+}
+
+.form {
+  width: 250px;
+  height: 380px;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 50%,
+    rgba(0, 0, 0, 0.8) 50%
+  );
+  position: absolute;
+  top: -20px;
+  margin-left: 875px;
+  border-radius: 20px;
+  padding: 35px;
+  margin-top: -45px;
+}
+
+.form h2 {
+  width: 220px;
+  font-family: sans-serif;
+  text-align: center;
+  color: orange;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+.form input {
+  width: 240px;
+  height: 35px;
+  background: transparent;
+  border-bottom: 1px solid orange;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  color: aliceblue;
+  margin-top: 23px;
+}
+
+.form input:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: blue;
+}
+
+.btnn {
+  width: 240px;
+  height: 40px;
+  background: orange;
+  border-radius: 10px;
+  margin-top: 32px;
+  border: none;
+  font-size: 18px;
+}
+
+.btnn:hover {
+  background: white;
+}
+
+.form .link {
+  font-size: 17px;
+  text-align: center;
+  padding: 20px;
+  margin-top: 2px;
+  color: white;
+}
+
+.liw {
+  font-size: 17px;
+  text-align: center;
+  color: white;
+}
+
+.icon a {
+  color: whitesmoke;
+}
+
+.icon ion-icon {
+  color: whitesmoke;
+  font-size: 24px;
+  margin-left: 30px;
+  margin-top: 10%;
+  color: rgb(201, 83, 37);
+}
